@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&family=Source+Code+Pro:wght@300;400;500;600;700&display=swap");
 
+:root {
+  --dark-blue: #0f172a;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -9,7 +13,7 @@ body {
 }
 
 header {
-  background-color: #0f172a;
+  background-color: var(--dark-blue);
   color: #feffff;
   padding: 0.5em;
   text-align: center;
@@ -48,7 +52,7 @@ input[type="text"] {
 }
 
 button {
-  background-color: #0f172a;
+  background-color: var(--dark-blue);
   border: none;
   color: #f8fafc;
   cursor: pointer;
@@ -87,7 +91,7 @@ table {
 }
 
 th {
-  background-color: #0f172a;
+  background-color: var(--dark-blue);
   color: #feffff;
   padding: 0.5em;
   text-align: left;

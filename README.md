@@ -15,3 +15,5 @@
 - W3C HTML Validator: [https://validator.w3.org/](https://validator.w3.org/)
 
 - W3C CSS Validator: [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
+
+- HTML Character Codes: [https://www.toptal.com/designers/htmlarrows/numbers/](https://www.toptal.com/designers/htmlarrows/numbers/)
