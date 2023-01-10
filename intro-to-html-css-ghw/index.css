@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&family=Source+Code+Pro:wght@300;400;500;600;700&display=swap");
+
+body {
+  padding: 3em 1em;
+  margin: auto;
+  line-height: 1.75;
+  font-size: 1.25em;
+  font-family: "PT Sans", sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1em 0 0em;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+}
+
+p,
+ul {
+  margin-bottom: 2em;
+  color: #1d1d1d;
+  font-family: sans-serif;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-right: 1em;
+}
+
+a {
+  color: #1d1d1d;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #d97706;
+}
+
+img {
+  max-width: 100%;
+}
+
+blockquote {
+  margin: 2em 0;
+  padding: 0 1em;
+  border-left: 0.25em solid #1d1d1d;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+pre {
+  background-color: #0f172a;
+  border-radius: 0.25em;
+}
+
+code {
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.9em;
+  color: #22d3ee;
+}
+
+cite {
+  display: block;
+  text-align: right;
+  color: #a0aec0;
+}
+
+::-moz-selection {
+  color: #f8fafc;
+  background: #0c4a6e;
+}
+
+::selection {
+  color: #f8fafc;
+  background: #0c4a6e;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    text-align: left;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  nav ul li {
+    display: block;
+    padding: 0;
+  }
+
+  code {
+    font-size: 0.7em;
+    padding: 0;
+  }
+}
