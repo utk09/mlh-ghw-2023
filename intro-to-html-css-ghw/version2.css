@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=PT+Serif:wght@400;700&family=Source+Code+Pro:wght@300;400;500;600;700&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  line-height: 1.75;
+  font-size: 1.25em;
+  font-family: "PT Sans", sans-serif;
+}
+
+header {
+  background-color: #0f172a;
+  color: #feffff;
+  padding: 0.5em;
+  text-align: center;
+}
+
+section {
+  margin: 3em;
+}
+
+section h2 {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+  font-family: "PT Serif", serif;
+}
+
+section p {
+  font-size: 1em;
+  margin: 0 0 10px 0;
+  font-family: "Source Code Pro", monospace;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+  font-size: 1em;
+  font-family: "Source Code Pro", monospace;
+  justify-self: center;
+}
+
+input[type="text"] {
+  height: 2em;
+  font-size: 1em;
+  padding: 0.5em;
+  border: 1px solid #94a3b8;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #0f172a;
+  border: none;
+  color: #f8fafc;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 1em 3em;
+  margin: 1em 0;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #831843;
+}
+
+figure {
+  margin: 0 3em 0 0;
+}
+
+img {
+  border: 1px solid #94a3b8;
+  border-radius: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #0f172a;
+  color: #feffff;
+  padding: 0.5em;
+  text-align: left;
+}
+
+td {
+  padding: 0.5em;
+  border-bottom: 1px solid #afb894;
+}
