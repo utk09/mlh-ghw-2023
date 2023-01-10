@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GHW - Intro to HTML CSS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="version2.css">
+</head>
+
+<body>
+  <header>
+    <h1>Quiz App</h1>
+    <p>Taught by UT</p>
+  </header>
+
+  <section>
+    <h2>Question 1</h2>
+    <p>Which number comes next in this sequence: 2, 4, 6, 8, 10, ...</p>
+    <input type="text" id="q1-answer" aria-label="q1-answer">
+    <button>Check Answer</button>
+  </section>
+
+  <section>
+    <h2>Question 2</h2>
+    <p>What is the capital of India?</p>
+    <input type="radio" id="q2a" name="q2" value="a">
+    <label for="q2a">Delhi</label><br>
+    <input type="radio" id="q2b" name="q2" value="b">
+    <label for="q2b">Mumbai</label><br>
+    <input type="radio" id="q2c" name="q2" value="c">
+    <label for="q2c">Chennai</label><br>
+    <button>Check Answer</button>
+  </section>
+
+  <section>
+    <h2>Question 3</h2>
+    <p>Identify the shape in the following image:</p>
+    <figure>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Regular_triangle.svg/800px-Regular_triangle.svg.png"
+        height="150" width="150" alt="Shape">
+    </figure>
+    <input type="radio" id="q3a" name="q3" value="a">
+    <label for="q3a">Circle</label><br>
+    <input type="radio" id="q3b" name="q3" value="b">
+    <label for="q3b">Triangle</label><br>
+    <input type="radio" id="q3c" name="q3" value="c">
+    <label for="q3c">Rectangle</label><br>
+    <button>Check Answer</button>
+  </section>
+
+  <section>
+    <h2>Question 4</h2>
+    <p>Better of the two sci-fi franchises:</p>
+    <input type="checkbox" id="q4a" name="q4" value="Star Trek">
+    <label for="q4a">Star Trek</label><br>
+    <input type="checkbox" id="q4b" name="q4" value="Star Wars">
+    <label for="q4b">Star Wars</label><br>
+    <input type="checkbox" id="q4c" name="q4" value="None!">
+    <label for="q4c">None!</label><br>
+    <button>Check Answer</button>
+  </section>
+
+  <section>
+    <h2>Question 5</h2>
+    <p>Match the following</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Country</th>
+          <th>Capital</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1. India</td>
+          <!-- <td><input type="text" id="q5a" aria-label="q5a" /></td> -->
+          <td>A. London</td>
+        </tr>
+        <tr>
+          <td>2. United Kingdom</td>
+          <!-- <td><input type="text" id="q5c" aria-label="q5c" /></td> -->
+          <td>B. Madrid</td>
+        </tr>
+        <tr>
+          <td>3. Spain</td>
+          <!-- <td><input type="text" id="q5b" aria-label="q5b" /></td> -->
+          <td>C. New Delhi</td>
+        </tr>
+      </tbody>
+    </table>
+    <input type="radio" id="q5a" name="q5" value="a" />
+    <label for="q5a">1&rarr;A | 2&rarr;B | 3&rarr;C</label><br>
+    <input type="radio" id="q5b" name="q5" value="b" />
+    <label for="q5b">1&rarr;C | 2&rarr;A | 3&rarr;B</label><br>
+    <input type="radio" id="q5c" name="q5" value="c" />
+    <label for="q5c">1&rarr;B | 2&rarr;C | 3&rarr;A</label><br>
+    <button>Check Answer</button>
+  </section>
+
+</body>
+
+</html>
