@@ -11,3 +11,7 @@
 - CSS: [https://web.stanford.edu/group/csp/cs21/csscheatsheet.pdf](https://web.stanford.edu/group/csp/cs21/csscheatsheet.pdf)
 
 - MDN Docs: [https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/)
+
+- W3C HTML Validator: [https://validator.w3.org/](https://validator.w3.org/)
+
+- W3C CSS Validator: [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
