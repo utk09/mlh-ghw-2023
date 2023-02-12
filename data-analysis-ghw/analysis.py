@@ -30,7 +30,7 @@ supportAThonDF = pd.read_csv("./ai-hacks.csv")
 merged_DF = pd.concat([hackForTheFutureDF, aiHacksDF, hackCcelerateDF, supportAThonDF])
 
 # print Built_With column before removing \n
-builtWithCol = hackForTheFutureDF.Built_With.values
+builtWithCol = merged_DF.Built_With.values
 print("builtWithCol-Before: ", builtWithCol)
 
 # remove \n from Built_With column
