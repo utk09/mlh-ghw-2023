@@ -17,3 +17,9 @@
 - W3C CSS Validator: [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)
 
 - HTML Character Codes: [https://www.toptal.com/designers/htmlarrows/numbers/](https://www.toptal.com/designers/htmlarrows/numbers/)
+
+## Data Analysis
+
+- About: Scraping a website and doing an analysis on it. Accepting PRs for more data, more visualisations, solving caveats, etc.
+
+- Replit Link: https://replit.com/@UtkarshTiwari33/Scraping-GHW-UT#main.py
