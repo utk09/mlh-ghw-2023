@@ -23,8 +23,8 @@ print(hackForTheFutureDF.Built_With.values)
 
 # import more datasets and convert to dataframes
 aiHacksDF = pd.read_csv("./ai-hacks.csv")
-hackCcelerateDF = pd.read_csv("./ai-hacks.csv")
-supportAThonDF = pd.read_csv("./ai-hacks.csv")
+hackCcelerateDF = pd.read_csv("./hack-ccelerate.csv")
+supportAThonDF = pd.read_csv("./support-a-thon.csv")
 
 # merge dataframes
 merged_DF = pd.concat([hackForTheFutureDF, aiHacksDF, hackCcelerateDF, supportAThonDF])
