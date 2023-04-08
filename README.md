@@ -23,3 +23,11 @@
 - About: Scraping a website and doing an analysis on it. Accepting PRs for more data, more visualisations, solving caveats, etc.
 
 - Replit Link: https://replit.com/@UtkarshTiwari33/Scraping-GHW-UT#main.py
+
+## Job Board React (Frontend)
+
+- About: React frontend with Vite
+
+## Job Board Express API (Backend)
+
+- About: API for JobBoard using Express.js
