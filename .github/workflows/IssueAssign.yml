@@ -1,0 +1,22 @@
+name: Self-assign issue
+on:
+  issues:
+    types: [opened]
+jobs:
+  self-assign:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Self-assign issue
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issueNumber = context.payload.issue.number;
+            const assignees = [context.payload.issue.user.login];
+            github.issues.addAssignees({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              assignees: assignees
+            });
+
