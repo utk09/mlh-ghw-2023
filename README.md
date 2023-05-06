@@ -31,3 +31,7 @@
 ## Job Board Express API (Backend)
 
 - About: API for JobBoard using Express.js
+
+## Collision Game
+
+- About: Build a collision game using Paper.js, HTML, CSS, JS and Canvas. [README](https://github.com/utk09/mlh-ghw-2023/blob/main/games-collisions/README.md)
