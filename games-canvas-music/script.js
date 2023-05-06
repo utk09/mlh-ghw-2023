@@ -96,7 +96,66 @@ paper.view.onFrame = function onFrame(event) {
 };
 
 
+// Add code to generate just circles - Use this by commenting everything above and uncommenting everything below
+// const canvas = document.getElementById("myCanvas");
+// canvas.width = 700;
+// canvas.height = 600;
+// paper.setup(canvas);
 
+// const keyData = {
+//   q: {
+//     sound: new Howl({
+//       src: ["sounds/bubbles.mp3"],
+//     }),
+//     color: "#a5f3fc",
+//   },
+//   w: {
+//     sound: new Howl({
+//       src: ["sounds/clay.mp3"],
+//     }),
+//     color: "#eab308",
+//   },
+//   e: {
+//     sound: new Howl({
+//       src: ["sounds/stick.mp3"],
+//     }),
+//     color: "#8b5cf6",
+//   },
+//   r: {
+//     sound: new Howl({
+//       src: ["sounds/timer.mp3"],
+//     }),
+//     color: "#f43f5e",
+//   },
+// };
 
-// Add code to generate just circles
+// const circlesArr = [];
 
+// paper.view.onKeyDown = function onKeyDown(event) {
+//   if (keyData[event.key]) {
+//     const maxPoint = new paper.Point(
+//       paper.view.size.width,
+//       paper.view.size.height
+//     );
+//     const randomPoint = paper.Point.random();
+//     const point = maxPoint.multiply(randomPoint);
+//     const newCircle = new paper.Path.Circle(point, 500);
+//     newCircle.fillColor = keyData[event.key].color;
+//     keyData[event.key].sound.play();
+//     circlesArr.push(newCircle);
+//   }
+// };
+
+// paper.view.onFrame = function onFrame(event) {
+//   for (let i = 0; i < circlesArr.length; i++) {
+//     const circle = circlesArr[i];
+//     circle.scale(0.9);
+//     circle.fillColor.hue += 1;
+//     circle.fillColor.alpha *= 0.95;
+//     if (circle.area < 1) {
+//       circle.remove();
+//       circlesArr.splice(i, 1);
+//       i--;
+//     }
+//   }
+// }
