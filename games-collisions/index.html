@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Paper.js Game</title>
+  <style>
+    body {
+      background-color: #0f172a;
+    }
+
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      border: 5px solid #450a0a;
+      background: #020617;
+    }
+
+    #reload-button {
+      display: block;
+      margin: 0 auto;
+      padding: 20px 40px;
+      font-size: 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="myCanvas"></canvas>
+  <script src="https://unpkg.com/paper@0.12.11/dist/paper-full.min.js"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>
