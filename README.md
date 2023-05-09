@@ -35,3 +35,7 @@
 ## Collision Game
 
 - About: Build a collision game using Paper.js, HTML, CSS, JS and Canvas. [README](https://github.com/utk09/mlh-ghw-2023/blob/main/games-collisions/README.md)
+
+## Canvas Music
+
+- About: Build a simple Patatap Clone using Paper.js, Howler.js HTML, CSS, JS and Canvas.
