@@ -65,11 +65,16 @@ const TableComponent = () => {
                 )}
               </td>
               <td className="px-6 py-4 whitespace-nowrap">
-                {password.createdOn.split("T")[0]},{" "}
-                {new Date(password.createdOn).toLocaleTimeString("en-GB", {
-                  timeStyle: "long",
-                  hour12: false
-                })}
+                {Intl.DateTimeFormat(navigator.language, {
+                   year: 'numeric',
+                   month: '2-digit',
+                   day: '2-digit',
+                   hour: 'numeric',
+                   minute: 'numeric',
+                   second: 'numeric',
+                   hour12: false,
+                   timeZoneName: 'short'
+                }).format(new Date(password.createdOn))}
               </td>
             </tr>
           ))}
