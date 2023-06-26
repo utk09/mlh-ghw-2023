@@ -43,16 +43,16 @@ export function generateRandomPassword(length) {
     specialCharacters[Math.floor(Math.random() * specialCharacters.length)];
   password += randomCharacter;
 
+  // Remove whitespace, if any
+  password = password.replace(/ +/g, "");
+
   // Generate the remaining characters
   const remainingLength = length - 3;
-  const characters = words.join("") + randomNumber + specialCharacters.join("");
+  const characters = words.join("").replace(/ +/g, "") + randomNumber + specialCharacters.join("");
   for (let i = 0; i < remainingLength; i++) {
     const randomIndex = Math.floor(Math.random() * characters.length);
     password += characters[randomIndex];
   }
-
-  // Remove whitespace, if any
-  password = password.replace(/ +/g, "");
 
   // Shuffle the password characters
   let shuffledPassword = shuffleString(password);
