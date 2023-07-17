@@ -27,6 +27,7 @@ export function generateRandomPassword(length) {
     "Silverado",
   ];
   const specialCharacters = ["!", "@", "#", "$", "%", "&", "*"];
+  const alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
   let password = "";
 
@@ -48,7 +49,7 @@ export function generateRandomPassword(length) {
 
   // Generate the remaining characters
   const remainingLength = length - 3;
-  const characters = words.join("").replace(/ +/g, "") + randomNumber + specialCharacters.join("");
+  const characters = alphabet + randomNumber + specialCharacters.join("");
   for (let i = 0; i < remainingLength; i++) {
     const randomIndex = Math.floor(Math.random() * characters.length);
     password += characters[randomIndex];
